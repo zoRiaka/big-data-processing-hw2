@@ -14,7 +14,7 @@ bash shutdown-cluster.sh
 ### NOTE:
 If you want to view the tables or make some changes you can call:
 
-'''
+```
 docker exec -it [any node] cqlsh #node1, node2, node3
 USE [keyspace name] #my_keyspace
-'''
+```
